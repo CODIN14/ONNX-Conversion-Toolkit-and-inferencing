@@ -48,7 +48,7 @@ input_image = np.random.randn(1, 1, 28, 28).astype(np.float32)
 output = run_inference_onnx(onnx_model_path, input_image)
 print("Inference Output:", output)
 
-License
+## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 
 
